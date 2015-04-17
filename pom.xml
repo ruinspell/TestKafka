@@ -17,7 +17,14 @@
         <log4j.version>1.2.15</log4j.version>
     </properties>
     <dependencies>
-    <dependency>
+        <dependency>
+        <groupId>org.apache.kafka</groupId>
+        <artifactId>kafka_2.9.2</artifactId>
+        <version>0.8.1.1</version>
+        <scope>compile</scope>
+        </dependency>
+
+        <dependency>
         <groupId>org.apache.kafka</groupId>
         <artifactId>kafka-clients</artifactId>
         <version>0.8.2.0</version>
