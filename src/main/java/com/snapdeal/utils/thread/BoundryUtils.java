@@ -1,4 +1,4 @@
-package utils;
+package com.snapdeal.utils.thread;
 
 import java.util.Collection;
 import java.util.Map;
@@ -33,7 +33,7 @@ public class BoundryUtils {
             return l_value.isEmpty();
         }
 
-        throw new UnsupportedOperationException(""+value);
+        return false;
     }
 
     public static boolean isNullOrEmpty(Object value) {
